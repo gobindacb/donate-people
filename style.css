@@ -57,6 +57,7 @@ body {
 .container-box {
     justify-content: center;
     display: flex;
+    margin-top: 50px;
 }
 
 .box {
@@ -74,4 +75,22 @@ body {
 #two {
     background-color: rgb(228, 206, 210);
     border: 2px solid red;
+}
+
+.input {
+    width: 47%;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.donate-amn button {
+    padding: 10px 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    margin-top: 60px;
 }
