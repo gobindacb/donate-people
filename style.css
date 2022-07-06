@@ -75,6 +75,7 @@ body {
 #two {
     background-color: rgb(228, 206, 210);
     border: 2px solid red;
+    border-radius: 5px;
 }
 
 .input {
@@ -93,4 +94,49 @@ body {
     border: none;
     font-size: 20px;
     margin-top: 60px;
+}
+
+.plan-head {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.plan-head h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-head p {
+    color: gray;
+    font-size: larger;
+}
+
+.plan-card {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    margin-top: 50px;
+
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px 5px 10px;
+}
+
+#food {
+    background-color: rgb(202, 235, 248);
+}
+
+#shelter {
+    background-color: papayawhip;
+}
+
+#education {
+    background-color: rgb(250, 213, 200);
 }
