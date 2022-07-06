@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container-one {
+.section-one {
     background-image: url(images/donation6.jpg);
     background-size: cover;
     background-position: center;
@@ -26,6 +26,7 @@ body {
     font-size: 20px;
     color: white;
     margin-top: 10px;
+    padding-top: -10px;
 }
 
 .info button {
@@ -35,4 +36,42 @@ body {
     color: aliceblue;
     border: none;
     font-size: 20px;
+}
+
+.donate-amn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate-amn h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-amn p {
+    color: gray;
+    font-size: larger;
+}
+
+.container-box {
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    background-color: gainsboro;
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+
+}
+
+.box h3 {
+    padding-top: 30px;
+}
+
+#two {
+    background-color: rgb(228, 206, 210);
+    border: 2px solid red;
 }
